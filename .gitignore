@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (large files, local only)
+data/raw_docs/*
+!data/raw_docs/.gitkeep
+data/db/*
+!data/db/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+!.env.example
+
+# FAISS indexes (regenerable)
+*.faiss
+*.index
+*.meta
+
+# SQLite databases (runtime data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# PDF files (large binary files)
+*.pdf
+
+# Office documents (privacy risk)
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# Claude Code local config
+.claude/
+.mcp.json
+CLAUDE.md
+
+# Personal AI interaction history
+CLAUDE_RAG.md
+
+# Agent scripts (local only)
+scrips/
+
+# Raw homework and reference papers (privacy risk)
+*_大作业.*
+*_报告.*
+*报告.*
+*_reference_papers/
+*_raw_homework/
+
+# Experiment files with IDs
+*实验-*.py
+*xiaomai.py
+*about_dialog.py
+*azuz.py
+*sklearn.py
+*experiment_shiyan.py

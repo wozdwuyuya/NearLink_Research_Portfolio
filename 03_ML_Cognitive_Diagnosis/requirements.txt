@@ -1,0 +1,15 @@
+# Core ML framework (CUDA 12.4 build)
+torch==2.6.0+cu124
+
+# Data processing
+pandas==3.0.1
+numpy==2.4.6
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# Visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Statistical analysis
+scipy==1.17.1
